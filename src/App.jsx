@@ -6,6 +6,8 @@ import Chef from "./components/Chef"
 import Video from "./components/Video"
 import Laurels from "./components/Laurels"
 import Gallery from "./components/Gallery"
+import FindUs from "./components/FindUs"
+import Subscribe from "./components/Subscribe"
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <Video/>
       <Laurels/>
       <Gallery/>
+      <FindUs/>
+      <Subscribe/>
     </>
   )
 }
