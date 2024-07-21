@@ -43,3 +43,7 @@
       word-spacing: 1em;
     }
   }
+  ::-webkit-scrollbar {
+    width: 0;
+}
+ 

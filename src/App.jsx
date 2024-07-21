@@ -5,6 +5,7 @@ import Special from "./components/Special"
 import Chef from "./components/Chef"
 import Video from "./components/Video"
 import Laurels from "./components/Laurels"
+import Gallery from "./components/Gallery"
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Chef/> 
       <Video/>
       <Laurels/>
+      <Gallery/>
     </>
   )
 }

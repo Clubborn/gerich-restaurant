@@ -10,9 +10,9 @@ const Video = () => {
     setPlayVideo((prevVideoState) => !prevVideoState);
 
     if(playVideo) {
-      vidRef.current.play();
-    } else {  
       vidRef.current.pause();
+    } else {  
+      vidRef.current.play();
     }
   };
 
@@ -31,8 +31,8 @@ const Video = () => {
       <div className=' inset-0 absolute flex justify-center items-center'>
         <div className='w-[100px] h-[100px] border-golden border-2 rounded-full flex justify-center items-center cursor-pointer' onClick={handleVideo}>
           {playVideo 
-          ? <BsFillPlayFill color='#fff' fontSize={30}/> 
-          : <BsPauseFill color='#fff' fontSize={30}/>}
+          ? <BsPauseFill color='#fff' fontSize={30}/> 
+          : <BsFillPlayFill color='#fff' fontSize={30}/>}
         </div>
       </div>
     </section>

@@ -16,7 +16,7 @@ const Hero = () => {
                     <button className='bg-golden w-[10rem] h-10 cormorant-upright-semibold sm:text-lg text-black'>Explore Menu</button>
                 </div>
            
-            <div className='flex items-center'>
+            <div className='flex items-center relative max-lg:left-5 max-sm:left-0'>
                 <img src={images.welcome} width={650} alt="food" />
             </div>
         </div>

@@ -9,10 +9,10 @@ const Laurels = () => {
                 <div className='mb-10 max-lg:flex max-lg:flex-col max-lg:items-center'>
                     <h2 className='text-white text-2xl cormorant-upright-regular mb-2'>Awards & recognition</h2>
                     <img src={images.spoon} width={30} className='mb-8 max-lg:mb-5' alt="" />
-                    <h1 className='text-golden cormorant-upright-semibold text-7xl'>Our Laurels</h1>
+                    <h1 className='text-golden cormorant-upright-semibold text-7xl max-sm:text-6xl'>Our Laurels</h1>
                 </div>
                 <div>
-                    <div className='flex flex-col gap-10'>
+                    <div className='flex flex-col gap-10 max-sm:mx-7'>
                         <div className='flex'>
                              <img src={images.award01} width={80} alt="" />
                             <div className='ml-10'>
@@ -48,7 +48,7 @@ const Laurels = () => {
                 </div>
             </div>       
             <div className='mr-[10rem] flex items-center max-lg:relative max-lg:left-14'>
-                <img src={images.laurels} width={600} alt="" />
+                <img src={images.laurels} width={650} alt="" />
             </div>
         </div>
     </section>
