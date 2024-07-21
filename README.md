@@ -5,10 +5,13 @@ UTILIZED SKILLS <br>
   File management with Git and Github <br>
   Fully Responsive Design which is adaptive to various devices <br>
   Semantic Html and SEO <br>
-  Styling with Tailwind CSS and Vanilla Css <br>
+  Styling and layout with Tailwind CSS and Vanilla Css <br>
   Function Based Components using React <br>
   Proggramming with various React Hooks such as useState and useRef  <br>
   Terminal knowledge in Vscode and PowerShell <br>
   Implemented an interactive video section using useRef hook <br>
   Html Forms <br>
   Creating Logic and Responsiveness with Javascript & React <br>
+  Package managing using npm and npx
+ <br>
+ Just dowload the zip file and install dependencies (npm install) if you want to check out the website.
